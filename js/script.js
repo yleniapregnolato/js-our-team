@@ -49,12 +49,26 @@ console.log(team);
 
 // stampo su console le informazioni dei mebri del team
 
+const teamRow = document.getElementById("team-cards");
+
 for (let i = 0; i < team.length; i++) {
-    const curTeam = team[i];
+    const curTeam = team[i];  // object
     console.log(curTeam);
     // stampo utilizzando dot.notation
-    
+
     console.log(curTeam.name);
     console.log(curTeam.profession);
     console.log(curTeam.pic);
+    // MILESTONE 3
+    // stampo in pagina le informazioni
+
+    teamRow.innerHTML += `
+
+    <div class="card">
+        <h2 class="name">${curTeam.name}</h2>
+        <h3 class="profession">${curTeam.profession}</h3>
+        <img src="img/${curTeam.pic}" alt="team">
+    </div>
+    `
 }
+

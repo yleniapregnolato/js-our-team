@@ -9,4 +9,4 @@
 - [x] Stampare su console le informazioni di nome, ruolo e la stringa della foto per ogni membro del team
 
 ### MILESTONE 2:
-- [ ] Stampare le stesse informazioni su DOM sottoforma di stringhe
+- [x] Stampare le stesse informazioni su DOM sottoforma di stringhe
